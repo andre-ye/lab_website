@@ -1,6 +1,256 @@
 {
 	"paper": [
 		{
+			"title": "Agonistic Image Generation: Unsettling the Hegemony of Intention",
+			"id": "hegemony-intention",
+			"author": [
+				{
+					"author_name": "Andrew Shaw"
+				},
+				{
+					"author_name": "Andre Ye"
+				},
+				{
+					"author_name": "Ranjay Krishna"
+				},
+				{
+					"author_name": "Amy Zhang"
+				}
+			],
+			"conference_full_name": "Fairness, Accountability, Transparency",
+			"conference url": "https://facctconference.org/",
+			"conference": "FAccT",
+			"year": "2025",
+			"award": "BEST UNDERGRADUATE THESIS",
+			"short_abstract": "1-2 sentence summary",
+			"abstract": "Current image generation paradigms prioritize actualizing user intention - \"see what you intend\" - but often neglect the sociopolitical dimensions of this process. However, it is increasingly evident that image generation is political, contributing to broader social struggles over visual meaning. This sociopolitical aspect was highlighted by the March 2024 Gemini controversy, where Gemini faced criticism for inappropriately injecting demographic diversity into user prompts. Although the developers sought to redress image generation's sociopolitical dimension by introducing diversity \"corrections,\" their opaque imposition of a standard for \"diversity\" ultimately proved counterproductive. In this paper, we present an alternative approach: an image generation interface designed to embrace open negotiation along the sociopolitical dimensions of image creation. Grounded in the principles of agonistic pluralism (from the Greek agon, meaning struggle), our interface actively engages users with competing visual interpretations of their prompts. Through a lab study with 29 participants, we evaluate our agonistic interface on its ability to facilitate reflection - engagement with other perspectives and challenging dominant assumptions - a core principle that underpins agonistic contestation. We compare it to three existing paradigms: a standard interface, a Gemini-style interface that produces \"diverse\" images, and an intention-centric interface suggesting prompt refinements. Our findings demonstrate that the agonistic interface enhances reflection across multiple measures, but also that reflection depends on users perceiving the interface as both appropriate and empowering; introducing diversity without grounding it in relevant political contexts was perceived as inauthentic. Our results suggest that diversity and user intention should not be treated as opposing values to be balanced.",
+			"links": {
+				"pdf_url": "https://arxiv.org/abs/2502.15242"
+			}
+		},
+		{
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@6562a28f3ae57f2d3f43c116e63ff42a17d942b3/images/pasted-image-1749836527785.png",
+			"title": "Semantic and Expressive Variation in Image Captions Across Language",
+			"id": "image-cap-variation",
+			"author": [
+				{
+					"author_name": "Andre Ye"
+				},
+				{
+					"author_name": "Sebastin Santy"
+				},
+				{
+					"author_name": "Jena D. Hwang"
+				},
+				{
+					"author_name": "Ranjay Krishna"
+				},
+				{
+					"author_name": "Amy Zhang"
+				}
+			],
+			"conference_full_name": "Computer Vision and Pattern Recognition",
+			"conference url": "https://cvpr.thecvf.com/",
+			"conference": "CVPR",
+			"year": "2025",
+			"short_abstract": "1-2 sentence summary",
+			"abstract": "Computer vision often treats human perception as homogeneous: an implicit assumption that visual stimuli are perceived similarly by everyone. This assumption is reflected in the way researchers collect datasets and train vision models. By contrast, literature in cross-cultural psychology and linguistics has provided evidence that people from different cultural backgrounds observe vastly different concepts even when viewing the same visual stimuli. In this paper, we study how these differences manifest themselves in vision-language datasets and models, using language as a proxy for culture. By comparing textual descriptions generated across 7 languages for the same images, we find significant differences in the semantic content and linguistic expression. When datasets are multilingual as opposed to monolingual, descriptions have higher semantic coverage on average, where coverage is measured using scene graphs, model embeddings, and linguistic taxonomies. For example, multilingual descriptions have on average 29.9% more objects, 24.5% more relations, and 46.0% more attributes than a set of monolingual captions. When prompted to describe images in different languages, popular models (e.g. LLaVA) inherit this bias and describe different parts of the image. Moreover, finetuning models on captions from one language performs best on corresponding test data from that language, while finetuning on multilingual data performs consistently well across all test data compositions. Our work points towards the need to account for and embrace the diversity of human perception in the computer vision community.",
+			"links": {
+				"pdf_url": "https://arxiv.org/pdf/2310.14356"
+			}
+		},
+		{
+			"image": "https://social.cs.washington.edu/images/creativeWritingAndAI.png",
+			"title": "From Pen to Prompt: How Creative Writers Integrate AI into their Writing Practice",
+			"id": "from-pen-to-prompt-how-creative-writers-integrate-ai-into-their-writing-practice",
+			"author": [
+				{
+					"author_name": "Alicia Guo"
+				},
+				{
+					"author_name": "Shreya Sathyanarayanan"
+				},
+				{
+					"author_name": "Leijie Wang"
+				},
+				{
+					"author_name": "Jeffrey Heer"
+				},
+				{
+					"author_name": "Amy Zhang"
+				}
+			],
+			"conference_full_name": "ACM Creativity & Cognition 2025",
+			"conference url": "https://cc.acm.org/2025/",
+			"conference": "C&C",
+			"year": "2025",
+			"short_abstract": "<p>We characterize the interplay between writers’ values, their fluid relationships with AI, and specific integration strategies—ultimately enabling writers to create new AI workflows without compromising their creative values. We provide insight for writing communities, AI developers and future researchers on the importance of supporting transparency of these emerging writing processes and rethinking what AI features can best serve writers.</p>",
+			"abstract": "Creative writing is a deeply human craft, yet AI systems using large language models (LLMs) offer the automation of significant parts of the writing process. So why do some creative writers choose to use AI? Through interviews and observed writing sessions with 18 creative writers who already use AI regularly in their writing practice, we find that creative writers are intentional about how they incorporate AI, making many deliberate decisions about when and how to engage AI based on their core values, such as authenticity and craftsmanship. We characterize the interplay between writers’ values, their fluid relationships with AI, and specific integration strategies—ultimately enabling writers to create new AI workflows without compromising their creative values. We provide insight for writing communities, AI developers and future researchers on the importance of supporting transparency of these emerging writing processes and rethinking what AI features can best serve writers.",
+			"bibtex": "@misc{guo2025penpromptcreativewriters, title={From Pen to Prompt: How Creative Writers Integrate AI into their Writing Practice}, author={Alicia Guo and Shreya Sathyanarayanan and Leijie Wang and Jeffrey Heer and Amy Zhang}, year={2025}, eprint={2411.03137}, archivePrefix={arXiv}, primaryClass={cs.HC}, url={https://arxiv.org/abs/2411.03137},}",
+			"links": {
+				"pdf_url": "https://arxiv.org/pdf/2411.03137"
+			}
+		},
+		{
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@15a38cf2b0855846bf164047ac0e0dbdfccc28a6/images/Screenshot%202025-03-22%20at%2009.51.32.png",
+			"title": "End User Authoring of Personalized Content Classifiers: Comparing Example Labeling, Rule Writing, and LLM Prompting",
+			"id": "end-user-authoring-of-personalized-content-classifiers-comparing-example-labeling-rule-writing-and-llm-prompting",
+			"author": [
+				{
+					"author_name": "Leijie Wang"
+				},
+				{
+					"author_name": "Kathryn Yurechko"
+				},
+				{
+					"author_name": "Pranati Dani"
+				},
+				{
+					"author_name": "Quan Ze (Jim) Chen"
+				},
+				{
+					"author_name": "Amy Zhang"
+				}
+			],
+			"conference": "CHI",
+			"year": "2025",
+			"short_abstract": "<p>To make creating personal classifiers for content curation easier for such users, tools should support rapid initialization and iterative refinement. In this work,&nbsp; we then compare three strategies&mdash;(1) example labeling, (2) rule writing, and (3) large language model (LLM) prompting&mdash;for end users to build personal content classifiers in a lab experiment.&nbsp;</p>",
+			"abstract": "Existing tools for laypeople to create personal classifiers often assume a motivated user working uninterrupted in a single, lengthy session. However, users tend to engage with social media casually, with many short sessions on an ongoing, daily basis. To make creating personal classifiers for content curation easier for such users, tools should support rapid initialization and iterative refinement. In this work, we compare three strategies—(1) example labeling, (2) rule writing, and (3) large language model (LLM) prompting—for end users to build personal content classifiers. From an experiment with 37 non-programmers tasked with creating personalized moderation filters, we found that participants preferred different initializing strategies in different contexts, despite LLM prompting’s better performance. However, all strategies faced challenges with iterative refinement. To overcome challenges in iterating on their prompts, participants even adopted hybrid approaches such as providing examples as in-context examples or writing rule-like prompts.",
+			"links": {
+				"pdf_url": "https://arxiv.org/pdf/2409.03247"
+			},
+			"conference url": "https://chi2025.acm.org/"
+		},
+		{
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@aa8060b8faa1298488bdf751d6141744e06fe0ab/images/Screenshot%202025-03-19%20at%208.53.59 AM.png",
+			"title": "Social-RAG: Retrieving from Group Interactions to Socially Ground AI Generation",
+			"id": "social-rag-retrieving-from-group-interactions-to-socially-ground-ai-generation",
+			"author": [
+				{
+					"author_name": "Ruotong Wang"
+				},
+				{
+					"author_name": "Xinyi Zhou"
+				},
+				{
+					"author_name": "Lin Qiu"
+				},
+				{
+					"author_name": "Joseph Chee Chang"
+				},
+				{
+					"author_name": "Jonathan Bragg"
+				},
+				{
+					"author_name": "Amy Zhang"
+				}
+			],
+			"conference_full_name": "ACM CHI Conference on Human Factors in Computing Systems",
+			"conference url": "https://chi2025.acm.org/",
+			"conference": "CHI",
+			"year": "2025",
+			"short_abstract": "<p>We proposed and evaluated Social-RAG, a workflow that enables AI agents to generate contextually relevant content aligned with group preferences by retrieving social signals from group interaction history. We instantiated this approach in PaperPing, a Slack bot that posts paper recommendations in group chats, which was deployed in 18 channels, reaching 500+ researchers.</p>",
+			"abstract": "AI agents are increasingly tasked with making proactive suggestions in online spaces where groups collaborate, yet risk being unhelpful or even annoying if they fail to match group preferences or behave in socially inappropriate ways. Fortunately, group spaces have a rich history of prior interactions and affordances for social feedback that can support grounding an agent's generations to a group's interests and norms. We present Social-RAG, a workflow for socially grounding agents that retrieves context from prior group interactions, selects relevant social signals, and feeds them into a language model to generate messages in a socially aligned manner. We implement this in \\textsc{PaperPing}, a system for posting paper recommendations in group chat, leveraging social signals determined from formative studies with 39 researchers. From a three-month deployment in 18 channels reaching 500+ researchers, we observed PaperPing posted relevant messages in groups without disrupting their existing social practices, fostering group common ground.",
+			"links": {
+				"pdf_url": "https://arxiv.org/abs/2411.02353",
+				"video_url": "https://www.loom.com/share/d4a7810a2a5142f7b46beaa7f382d0a9?sid=80f659dd-cfac-4964-bc44-c45bb4342862"
+			}
+		},
+		{
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@1715159beab0e1d44adf5f29eb07f558b57dd55e/images/cscw-amanda.jpg",
+			"title": "Supporting Hard Conversations in Close Relationships Through Design",
+			"id": "relationship-conversations",
+			"author": [
+				{
+					"author_name": "Amanda Baughan"
+				},
+				{
+					"author_name": "Larry Tian"
+				},
+				{
+					"author_name": "Pranav Shekar"
+				},
+				{
+					"author_name": "Amy Zhang"
+				},
+				{
+					"author_name": "Alexis Hiniker"
+				}
+			],
+			"conference_full_name": "ACM Conference on Computer-Supported Cooperative Work & Social Computing",
+			"conference url": "https://cscw.acm.org/2025/",
+			"conference": "CSCW",
+			"year": "2025",
+			"short_abstract": "<p>We interviewed six psychotherapists and twenty-one social media users to understand both theoretical best practices for navigating conflict and users' experiences with hard conversations online, particularly on text-based messaging platforms. We used our findings to create a temporal model of how digital design could intervene to support users and their relationships during these conversations.</p>",
+			"abstract": "Relationships are perhaps the single greatest source of human happiness, and as part of building strong relationships, conflict and hard conversations are unavoidable. As people increasingly rely on digital communication to initiate and resolve conflicts, we examine how design can improve the experience of working through hard conversations within close relationships. We interviewed six psychotherapists and twenty-one social media users to understand both theoretical best practices for navigating conflict and users' experiences with hard conversations online, particularly on text-based messaging platforms. We used our findings to create a temporal model of how digital design could intervene to support users and their relationships during these conversations. Specifically, we find that design can help to facilitate more mutually consensual difficult conversations, support emotional regulation during the conversation, and help facilitate pauses when necessary. We explore the tensions between balancing the needs of relationships and the individuals in them in digital design, and how to center relationships in digital design.",
+			"links": {
+				"pdf_url": "https://faculty.washington.edu/alexisr/HardConversationsDesign.pdf"
+			},
+			"bibtex": "@article{10.1145/3686918,\nauthor = {Baughan, Amanda and Tian, Larry and Shekar, Pranav and Zhang, Amy and Hiniker, Alexis},\ntitle = {Supporting Hard Conversations in Close Relationships Through Design},\nyear = {2024},\nissue_date = {November 2024},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {8},\nnumber = {CSCW2},\nurl = {https://doi.org/10.1145/3686918},\ndoi = {10.1145/3686918},\nabstract = {Relationships are perhaps the single greatest source of human happiness, and as part of building strong relationships, conflict and hard conversations are unavoidable. As people increasingly rely on digital communication to initiate and resolve conflicts, we examine how design can improve the experience of working through hard conversations within close relationships. We interviewed six psychotherapists and twenty-one social media users to understand both theoretical best practices for navigating conflict and users' experiences with hard conversations online, particularly on text-based messaging platforms. We used our findings to create a temporal model of how digital design could intervene to support users and their relationships during these conversations. Specifically, we find that design can help to facilitate more mutually consensual difficult conversations, support emotional regulation during the conversation, and help facilitate pauses when necessary. We explore the tensions between balancing the needs of relationships and the individuals in them in digital design, and how to center relationships in digital design.},\njournal = {Proc. ACM Hum.-Comput. Interact.},\nmonth = nov,\narticleno = {379},\nnumpages = {22},\nkeywords = {computer-mediated communication, conflict, design, social media}\n}"
+		},
+		{
+			"image": "https://cdn.jsdelivr.net/gh/Social-Futures-Lab/social-futures-lab.github.io@2dcc2b1f7d848b8088ae4a1271ad32edaa010712/images/ResearchPaper.png",
+			"title": "The Collaborative Practices and Motivations of Online Communities Dedicated to Voluntary Misinformation Response",
+			"id": "online-communities-voluntary-misinfo-response",
+			"author": [
+				{
+					"author_name": "Jina Yoon"
+				},
+				{
+					"author_name": "Shreya Sathyanarayanan"
+				},
+				{
+					"author_name": "Franziska Roesner"
+				},
+				{
+					"author_name": "Amy Zhang"
+				}
+			],
+			"conference_full_name": "ACM GROUP 2025",
+			"conference url": "https://group.acm.org/conferences/group25/index.php",
+			"conference": "GROUP",
+			"year": "2025",
+			"short_abstract": "<p> We present our findings as three case studies and discuss opportunities for future work to support collaborative practices in online communities dedicated to misinformation response. Our work surfaceshow resource sharing, social motivation, and decentralization can make misinformation correction moresustainable, rewarding, and effective for online citizens.</p>",
+			"abstract": "Responding to misinformation online can be an exhausting and thankless task. It takes time and energy to write effective content, puts users at risk of online harassment, and strains personal relationships. Despite these challenges, there are people who voluntarily respond to misinformation online, and some have established communities on platforms such as Reddit, Discord, and X (formerly Twitter) dedicated to these efforts. In this work, we interviewed 8 people who participate in such communities to understand the type of support they receive from each other in these discussion spaces. Interviewees described that their communities helped them sustain motivation, save time, and improve their communication skills. Common practices included sharing sources and citations, providing emotional support, giving others advice, and signaling positive feedback. We present our findings as three case studies and discuss opportunities for future work to support collaborative practices in online communities dedicated to misinformation response. Our work surfaceshow resource sharing, social motivation, and decentralization can make misinformation correction moresustainable, rewarding, and effective for online citizens",
+			"bibtex": "@article{10.1145/3701209, author = {Yoon, Jina and Sathyanarayanan, Shreya and Roesner, Franziska and Zhang, Amy X.}, title = {The Collaborative Practices and Motivations of Online Communities Dedicated to Voluntary Misinformation Response}, year = {2025}, issue_date = {January 2025}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, volume = {9}, number = {1}, url = {https://doi.org/10.1145/3701209}, doi = {10.1145/3701209}, abstract = {Responding to misinformation online can be an exhausting and thankless task. It takes time and energy to write effective content, puts users at risk of online harassment, and strains personal relationships. Despite these challenges, there are people who voluntarily respond to misinformation online, and some have established communities on platforms such as Reddit, Discord, and X (formerly Twitter) dedicated to these efforts. In this work, we interviewed 8 people who participate in such communities to understand the type of support they receive from each other in these discussion spaces. Interviewees described that their communities helped them sustain motivation, save time, and improve their communication skills. Common practices included sharing sources and citations, providing emotional support, giving others advice, and signaling positive feedback. We present our findings as three case studies and discuss opportunities for future work to support collaborative practices in online communities dedicated to misinformation response. Our work surfaces how resource sharing, social motivation, and decentralization can make misinformation correction more sustainable, rewarding, and effective for online citizens.}, journal = {Proc. ACM Hum.-Comput. Interact.}, month = jan, articleno = {GROUP30}, numpages = {15}, keywords = {communities of practice, misinformation, online communities, social correction, volunteers}}",
+			"links": {
+				"pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3701209",
+				"slides_url": "https://docs.google.com/presentation/d/1bIofxic5nWnlQ9CGCCpS2r0KLlJj0MqPB_4uMjJXI9o/edit?pli=1#slide=id.g208cb066cfb_0_1"
+			}
+		},
+		{
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@4d1f37071d8353428b1fc13511717efbe8b53e7e/images/qlarify.jpg",
+			"title": "Qlarify: Recursively Expandable Abstracts for Dynamic Information Retrieval over Scientific Papers",
+			"id": "qlarify",
+			"author": [
+				{
+					"author_name": "Raymond Fok"
+				},
+				{
+					"author_name": "Joseph Chee Chang"
+				},
+				{
+					"author_name": "Tal August"
+				},
+				{
+					"author_name": "Amy Zhang"
+				},
+				{
+					"author_name": "Dan Weld"
+				}
+			],
+			"conference_full_name": "ACM Symposium on User Interface Software and Technology",
+			"conference url": "https://uist.acm.org/2024/",
+			"conference": "UIST",
+			"year": "2024",
+			"short_abstract": "<p>We introduce recursively expandable abstracts, a novel interaction paradigm that dynamically expands abstracts by progressively incorporating additional information from the papers&rsquo; full text.&nbsp;</p>",
+			"abstract": "Navigating the vast scientific literature often starts with browsing a paper’s abstract. However, when a reader seeks additional information, not present in the abstract, they face a costly cognitive chasm during their dive into the full text. To bridge this gap, we introduce recursively expandable abstracts, a novel interaction paradigm that dynamically expands abstracts by progressively incorporating additional information from the papers’ full text. This lightweight interaction allows scholars to specify their information needs by quickly brushing over the abstract or selecting AI-suggested expandable entities. Relevant information is synthesized using a retrieval-augmented generation approach, presented as a fluid, threaded expansion of the abstract, and made efficiently verifiable via attribution to relevant source-passages in the paper. Through a series of user studies, we demonstrate the utility of recursively expandable abstracts and identify future opportunities to support low-effort and just-in-time exploration of long-form information contexts through LLM-powered interactions.",
+			"bibtex": "@inproceedings{10.1145/3654777.3676397,\nauthor = {Fok, Raymond and Chang, Joseph Chee and August, Tal and Zhang, Amy X. and Weld, Daniel S.},\ntitle = {Qlarify: Recursively Expandable Abstracts for Dynamic Information Retrieval over Scientific Papers},\nyear = {2024},\nisbn = {9798400706288},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3654777.3676397},\ndoi = {10.1145/3654777.3676397},\nbooktitle = {Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology},\narticleno = {145},\nnumpages = {21},\nkeywords = {Information Retrieval, Interactive Documents, Large Language Models, Mixed-Initiative User Interfaces, Scientific Papers},\nlocation = {Pittsburgh, PA, USA},\nseries = {UIST '24}\n}",
+			"links": {
+				"pdf_url": "https://dl.acm.org/doi/abs/10.1145/3654777.3676397"
+			}
+		},
+		{
 			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@fa484763483a46f497ed5a62f9b40d67beab1337/images/Screenshot%202024-11-08%20at%2010.30.02 PM.png",
 			"title": "Language Models as Critical Thinking Tools: A Case Study of Philosophers",
 			"id": "critical-thinking-tools",
@@ -171,12 +421,13 @@
 			"conference url": "https://chi2024.acm.org/",
 			"conference": "CHI",
 			"year": "2024",
-			"short_abstract": "<p>We explore a design space of meronymous communication, where people can reveal carefully chosen aspects of their identity and also leverage trusted endorsers to gain credibility. We implemented these ideas in a system for scholars to meronymously seek and receive paper recommendations on Twitter and Mastodon.</p>",
+			"short_abstract": "We explore a design space of meronymous communication, where people can reveal carefully chosen aspects of their identity and also leverage trusted endorsers to gain credibility. We implemented these ideas in a system for scholars to meronymously seek and receive paper recommendations on Twitter and Mastodon.",
 			"abstract": "In communities with social hierarchies, fear of judgment can discourage communication. While anonymity may alleviate some social pressure, fully anonymous spaces enable toxic behavior and hide the social context that motivates people to participate and helps them tailor their communication. We explore a design space of meronymous communication, where people can reveal carefully chosen aspects of their identity and also leverage trusted endorsers to gain credibility. We implemented these ideas in a system for scholars to meronymously seek and receive paper recommendations on Twitter and Mastodon. A formative study with 20 scholars confirmed that scholars see benefits to participating but are deterred due to social anxiety. From a month-long public deployment, we found that with meronymity, junior scholars could comfortably ask ``newbie'' questions and get responses from senior scholars who they normally found intimidating. Responses were also tailored to the aspects about themselves that junior scholars chose to reveal.",
 			"links": {
 				"pdf_url": "https://arxiv.org/pdf/2402.17847.pdf"
 			},
-			"award": "Best Paper Award"
+			"award": "Best Paper Award",
+			"bibtex": "@inproceedings{10.1145/3613904.3642241,\nauthor = {Soliman, Nouran and Kang, Hyeonsu B and Latzke, Matthew and Bragg, Jonathan and Chang, Joseph Chee and Zhang, Amy Xian and Karger, David R},\ntitle = {Mitigating Barriers to Public Social Interaction with Meronymous Communication},\nyear = {2024},\nisbn = {9798400703300},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3613904.3642241},\ndoi = {10.1145/3613904.3642241},\nabstract = {In communities with social hierarchies, fear of judgment can discourage communication. While anonymity may alleviate some social pressure, fully anonymous spaces enable toxic behavior and hide the social context that motivates people to participate and helps them tailor their communication. We explore a design space of meronymous communication, where people can reveal carefully chosen aspects of their identity and also leverage trusted endorsers to gain credibility. We implemented these ideas in a system for scholars to meronymously seek and receive paper recommendations on Twitter and Mastodon. A formative study with 20 scholars confirmed that scholars see benefits to participating but are deterred due to social anxiety. From a month-long public deployment, we found that with meronymity, junior scholars could comfortably ask “newbie” questions and get responses from senior scholars who they normally found intimidating. Responses were also tailored to the aspects about themselves that junior scholars chose to reveal.},\nbooktitle = {Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems},\narticleno = {151},\nnumpages = {26},\nkeywords = {Identity, Online Communities, Online Safety, Partial Anonymity, Q Social Recommendation, Self-Disclosure, Self-Presentation, Social Media},\nlocation = {Honolulu, HI, USA},\nseries = {CHI '24}\n}"
 		},
 		{
 			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@42bb05cd06be5d7fbde528be09aaae5a88bda191/images/Viblio%20Logo.png",
