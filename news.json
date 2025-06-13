@@ -1,6 +1,126 @@
 {
 	"news_item": [
 		{
+			"image": "https://assets.amazon.science/07/d9/d204ca2242bea8215dbf9ca5c43e/amazon-science-logo.svg",
+			"title": "We received a grant from Amazon to build tools for AI agent governance",
+			"date": "June 2025",
+			"description": "Amazon Research Awards awarded a grant on the topic of \"Tools for Governing AI Agent Autonomy\" to our lab as part of their AWS AI grant call.",
+			"link": {
+				"link_url": "https://www.amazon.science/research-awards/program-updates/70-amazon-research-award-recipients-announced",
+				"link_text": "Award announcement"
+			}
+		},
+		{
+			"image": "https://pdsoros.org/wp-content/uploads/2025/03/Andre-Ye.white-bkgrd-tight-1-819x1024.jpg",
+			"title": "Andre is a 2025 PD Soros Fellow",
+			"date": "April 2025",
+			"description": "Andre is a member of the 2025 Class of Paul &amp; Daisy Soros Fellows, along with 29 other fellows. Selected from more than 2,600 applicants, each of the recipients was chosen for their potential to make significant contributions to the United States and will receive up to $90,000 in funding over two years. Congrats Andre!",
+			"link": {
+				"link_url": "https://pdsoros.org/fellows/andre-ye/",
+				"link_text": "Announcement"
+			}
+		},
+		{
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@5a7a33950eebc572b416df277765b61d4e3836da/images/Sloan%20Research%20Fellow%202025%20hero%20slider.png",
+			"title": "Amy is a 2025 Sloan Research Fellow",
+			"date": "Feb 2025",
+			"description": "Amy is one of 126 U.S. and Canadian professors awarded for her innovative early-career research. Her work in building tools and developing paradigms for collaborative governance on digital platforms distinguishes her as a research leader of the next generation.",
+			"link": {
+				"link_url": "https://sloan.org/fellowships/2025-fellows",
+				"link_text": "Fellows announcement"
+			}
+		},
+		{
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@25c5f974d35ed20a93076689895f60adb036c0b1/images/Screenshot%20from%202025-02-13%2016-25-22.png",
+			"title": "Xinyi presents at UW Data Science Seminar at the EScience Institute",
+			"date": "Feb 2025",
+			"description": "Xinyi presented her work on \"Augmenting LLMs for Social Impact\" at the UW Data Science Seminar hosted by the eScience Institute at the University of Washington.",
+			"link": {
+				"link_url": "https://escience.washington.edu/events/uw-data-science-seminar-xinyi-zhou/",
+				"link_text": "Seminar anouncement"
+			}
+		},
+		{
+			"title": "Andre is a 2025 Fannie and John Hertz Fellowship finalist",
+			"date": "Feb 2025",
+			"description": "Andre is one of 52 finalists (and the only finalist from UW) for the pretigious fellowship. The final fellowship cohort will be announced in May 2025.",
+			"link": {
+				"link_url": "https://www.hertzfoundation.org/news/52-finalists-named-for-the-2025-hertz-fellowships/",
+				"link_text": "Finalists anouncement"
+			},
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@8a8719b9dbad64edd443ab3e8d11de31fecc5e43/images/hertz-foundation-logo-1200x630-1-1956906485.jpg"
+		},
+		{
+			"title": "Xinyi is a Rising Star in EECS and Data Science",
+			"date": "Dec 2024",
+			"description": "With a focus in Artificial Intelligence, Xinyi&nbsp; joined the Rising Stars in EECS meeting in 2024. In the presentation, she shared her comprehensive work on MUSE, a LLM aimed at addressing misinformation bottlenecks.",
+			"link": {
+				"link_url": "https://risingstars-eecs.mit.edu/participants/xinyi-zhou/",
+				"link_text": "Rising Star bio"
+			},
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@0768ba6e0227c17d0e44e6386f1dd57948df19aa/images/Screenshot%20from%202025-02-13%2022-04-54.png"
+		},
+		{
+			"title": "Teanna presents at the 2025 World Engineering Education Forum (WEEF)",
+			"date": "Dec 2024",
+			"description": "Teanna presented \"Scalable Community Mentorship: A Vision for Engineering Literacy &amp; Access\" in collaboration with AVELA - A Vision for Engineering Access &amp; Literacy to highlight AVELA's STEM engagement model for UW engineering students.&nbsp;",
+			"link": {
+				"link_url": "https://ieeexplore.ieee.org/document/10854949",
+				"link_text": "Paper link"
+			},
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@4f3ff053194626e7b93b8f7fb12fb6d955d4b12c/images/Screenshot%20from%202025-02-13%2022-09-47.png"
+		},
+		{
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@fcc58fe8878b46aec3bb199132fe2660ec427027/images/NeruIPS.jpg",
+			"title": "Pluralistic Alignment workshop at NeurIPS",
+			"date": "Dec 2024",
+			"description": "Amy co-organized a day long workshop at NeurIPS on pluralistic alignment. As part of the workshop, Kevin presented a poster on \"<a href=\"https://arxiv.org/abs/2411.10534\">chain of alignment</a>\", a process incorporating both experts and public input towards AI alignment.",
+			"link": {
+				"link_url": "https://pluralistic-alignment.github.io/",
+				"link_text": "Workshop website"
+			}
+		},
+		{
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@aed659643b542eeaf04bdd3703304646d55cee7f/images/LOGO-CSCW-e1703866772172.png",
+			"title": "SFL presents three papers at CSCW 2024, plus a SIG and a workshop",
+			"date": "Nov 2024",
+			"description": "SFL had 3 papers at CSCW 2024! Ruotong led one paper on \"<a href=\"https://dl.acm.org/doi/abs/10.1145/3637312\">meeting bridges</a>\", information artifacts that bridge synchronous and asynchronous collaboration. Amy had two papers, one on \"<a href=\"https://dl.acm.org/doi/abs/10.1145/3641006\">Form-From</a>\", a design space for social media systems, and one on the <a href=\"https://dl.acm.org/doi/abs/10.1145/3641010\">FABLE framework</a> for measuring misinformation harms. In addition, Galen co-organized a <a href=\"https://dl.acm.org/doi/abs/10.1145/3678884.3687141\">SIG on community-driven models</a> for research on social platforms",
+			"link": {
+				"link_url": "https://cscw.acm.org/2024/",
+				"link_text": "CSCW website"
+			}
+		},
+		{
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@daf909cca4859d8d9e08af15965470ba35ba08db/images/madrona-prize-peoples-choice-prize-presentation_kristine-white-e1730441808548.jpg",
+			"title": "Ruotong wins the Madrona Prize at the Allen School Research Day",
+			"date": "Nov 2024",
+			"description": "The Madrona Prize is given by Madrona Ventures during the UW Allen School's Research Day where students and faculty present on their research work. The prize is intended for promising and innovative research that is also commercializable. Ruotong won this year for her work on designing AI-based systems to support collaborative remote work! Congrats Ruotong and collaborators!",
+			"link": {
+				"link_url": "https://www.geekwire.com/2024/the-winning-ideas-at-the-uw-computer-science-school-annual-research-showcase/",
+				"link_text": "Geekwire article"
+			}
+		},
+		{
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@6587c40cb647ea83be775b9fca7694d2c3ee4f3f/images/andre.jpg",
+			"title": "Andre presents his paper on language models for critical thinking at COLM 2024",
+			"date": "Oct 2024",
+			"description": "Andre attended the first COLM in Philadelphia, PA to present his paper where he interviewed philosophers to understand how they might use language models in their work as critical thinkers (spoiler alert: they don't find them very helpful!).&nbsp;",
+			"link": {
+				"link_url": "https://arxiv.org/abs/2404.04516",
+				"link_text": "Paper link"
+			}
+		},
+		{
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@d76a9f724803a53534946b0732319b876c919d95/images/Screenshot%20from%202025-02-13%2016-47-34.png",
+			"title": "Alicia presents at the Causal Islands Conference",
+			"date": "Oct 2024",
+			"description": "Alicia gave a talk on \"Learning from Poetic Practices: Creativity Through Computational Means\" at the conference hosted in Berlin.",
+			"link": {
+				"link_url": "https://berlin.causalislands.com/#speakers",
+				"link_text": "Conference website"
+			}
+		},
+		{
 			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@4fc571722112a37f44a3ad04aada45b928b92e97/images/galenpresentation.png",
 			"title": "Galen presents work on online community values at ICWSM 2024",
 			"date": "June 2024",
@@ -19,6 +139,26 @@
 				"link_url": "https://facctconference.org/2024/",
 				"link_text": "FAccT 2024 website"
 			}
+		},
+		{
+			"title": "Ruotong attends the CHI WORK conference",
+			"date": "June 2024",
+			"description": "Ruotong participated and served as a program committee member for CHIWORK, a CHI symposium exploring how HCI will support work in the future. This year it was hosted by Northumbria University in Newcastle, UK&nbsp;",
+			"link": {
+				"link_url": "https://chiwork.org/24/organizers/",
+				"link_text": "Conference website"
+			},
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@b58bd0cd615716e0d67b1cdbac8aef4717646ab6/images/Screenshot%20from%202025-02-13%2022-00-12.png"
+		},
+		{
+			"title": "Amy appeared on the Techdirt podcast",
+			"date": "May 2024",
+			"description": "Amy spoke with Mike Masnick of Techdirt on his podcast, on content moderation and decentralization. The episode is - Episode 392: Platform Moderation Or Individual Control?",
+			"link": {
+				"link_url": "https://www.techdirt.com/2024/05/21/techdirt-podcast-episode-392-platform-moderation-or-individual-control/",
+				"link_text": "Podcast link"
+			},
+			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@037afa4e2c60d28b4bf1976d546dddebf7bc9ab8/images/600x600bb.jpeg"
 		},
 		{
 			"image": "https://cdn.jsdelivr.net/gh/amyxzhang/lab_website@bd0ca2dde9eff3494f3fe64a51c5933bf98d00a4/images/CHIphoto.png",
